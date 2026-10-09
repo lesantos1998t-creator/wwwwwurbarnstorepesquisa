@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-labelledby="title description">
+  <title id="title">Calça Cargo City — imagem não enviada</title>
+  <desc id="description">Espaço reservado para a fotografia do produto, que não foi incluída nos anexos.</desc>
+  <rect width="600" height="800" fill="#ddd9cf"/>
+  <rect x="250" y="315" width="100" height="80" rx="8" fill="none" stroke="#827f77" stroke-width="3"/>
+  <circle cx="280" cy="340" r="8" fill="#827f77"/>
+  <path d="M260 385l25-25 20 20 15-15 20 20" fill="none" stroke="#827f77" stroke-width="3"/>
+  <text x="300" y="445" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#171717">Calça Cargo City</text>
+  <text x="300" y="485" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#827f77">Imagem não enviada</text>
+</svg>
