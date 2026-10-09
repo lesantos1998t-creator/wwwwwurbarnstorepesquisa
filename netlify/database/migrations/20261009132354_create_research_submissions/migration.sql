@@ -1,17 +1,22 @@
+```sql
 CREATE TABLE "feedback" (
-	"id" serial PRIMARY KEY,
-	"email" text NOT NULL,
-	"message" text NOT NULL,
-	"created_at" timestamp with time zone DEFAULT now() NOT NULL
+    "id" SERIAL PRIMARY KEY,
+    "email" TEXT NOT NULL,
+    "message" TEXT NOT NULL,
+    "created_at" TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
+
 --> statement-breakpoint
+
 CREATE TABLE "ratings" (
-	"id" serial PRIMARY KEY,
-	"product" text NOT NULL,
-	"stars" integer NOT NULL,
-	"comment" text NOT NULL,
-	"created_at" timestamp with time zone DEFAULT now() NOT NULL
+    "id" SERIAL PRIMARY KEY,
+    "product" TEXT NOT NULL,
+    "stars" INTEGER NOT NULL,
+    "comment" TEXT NOT NULL,
+    "created_at" TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
+
+--> statement-breakpoint
 
 CREATE TABLE "registrations" (
     "id" SERIAL PRIMARY KEY,
@@ -25,5 +30,4 @@ CREATE TABLE "registrations" (
     "academic_use_consent" BOOLEAN NOT NULL DEFAULT FALSE,
     "created_at" TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
-	"created_at" timestamp with time zone DEFAULT now() NOT NULL
-);
+```
