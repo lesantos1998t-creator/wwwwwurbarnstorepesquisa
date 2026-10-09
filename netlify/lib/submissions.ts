@@ -26,10 +26,13 @@ function text(value: unknown, label: string, minimum: number, maximum: number): 
   return value.trim();
 }
 
+
 function email(value: unknown): string {
   const address = text(value, 'E-mail', 3, 254).toLowerCase();
+
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(address)) {
     throw new Error('Informe um e-mail válido.');
+
   }
   return address;
 }
